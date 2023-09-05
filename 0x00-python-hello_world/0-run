@@ -1,3 +1,2 @@
 #!/bin/bash
-# Setting the value of PYFILE environment variable
 python3 $PYFILE
