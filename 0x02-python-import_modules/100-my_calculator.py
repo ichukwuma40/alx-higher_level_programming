@@ -1,8 +1,5 @@
 #!/usr/bin/python3
-#Build my own calculator!
 from calculator_1 import add, sub, mul, div
-
-
 def arg_calc(argv):
     n = len(argv) - 1
     if n != 3:
@@ -22,8 +19,6 @@ def arg_calc(argv):
     else:
         print("Unknown operator. Available operators: +, -, * and /")
         exit(1)
-
-
 if __name__ == "__main__":
     import sys
     arg_calc(sys.argv)
