@@ -1,10 +1,10 @@
 #!/usr/bin/python3
-#4-hidden_discovery
+#hidden
+if __name__ == "__main__":
+    """Print all names defined by hidden_4 module."""
+    import hidden_
+    names = dir(hidden_4)
+    for name in names:
+        if name[:2] != "__":
+            print(name)
 
-if __name__ == '__main__':
-    import hidden_4
-
-    name_list = dir(hidden_4)
-    for st in name_list:
-        if not st.startswith('__'):
-            print('{:s}'.format(st))
