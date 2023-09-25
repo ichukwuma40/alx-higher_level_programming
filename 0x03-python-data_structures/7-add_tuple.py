@@ -1,5 +1,7 @@
- #!/usr/bin/python3
- def add_tuple(tuple_a=(), tuple_b=()):
+#!/usr/bin/python3
+#7-add_tuple
+
+def add_tuple(tuple_a=(), tuple_b=()):
     if tuple_a is None or tuple_b is None:
         return
     first = tuple_a + ('0', '0')

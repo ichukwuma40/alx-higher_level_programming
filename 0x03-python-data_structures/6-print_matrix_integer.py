@@ -1,5 +1,7 @@
- #!/usr/bin/python3
- def print_matrix_integer(matrix=[[]]):
+#!/usr/bin/python3
+#6-print_matrix_integer
+
+def print_matrix_integer(matrix=[[]]):
     if len(matrix) == 1 and any(matrix) is False:
         print()
     for row in matrix:
